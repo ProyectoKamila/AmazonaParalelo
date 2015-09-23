@@ -1,0 +1,11 @@
+[20-Mar-2015 22:55:51 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/prismava/public_html/amazonparalelo.com/wp-content/themes/amazona/include/main.php on line 2
+[20-Mar-2015 22:55:58 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/prismava/public_html/amazonparalelo.com/wp-content/themes/amazona/include/main.php on line 2
+[20-Mar-2015 22:58:19 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/prismava/public_html/amazonparalelo.com/wp-content/themes/amazona/include/main.php on line 2
+[20-Mar-2015 22:58:39 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/prismava/public_html/amazonparalelo.com/wp-content/themes/amazona/include/main.php on line 2
+[20-Mar-2015 22:58:50 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/prismava/public_html/amazonparalelo.com/wp-content/themes/amazona/include/main.php on line 2
+[20-Mar-2015 22:59:16 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/prismava/public_html/amazonparalelo.com/wp-content/themes/amazona/include/main.php on line 2
+[20-Mar-2015 23:00:15 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/prismava/public_html/amazonparalelo.com/wp-content/themes/amazona/include/main.php on line 2
+[20-Mar-2015 23:00:24 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/prismava/public_html/amazonparalelo.com/wp-content/themes/amazona/include/main.php on line 2
+[20-Mar-2015 23:01:11 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/prismava/public_html/amazonparalelo.com/wp-content/themes/amazona/include/main.php on line 2
+[20-Mar-2015 23:17:10 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/prismava/public_html/amazonparalelo.com/wp-content/themes/amazona/include/main.php on line 2
+[20-Mar-2015 23:17:34 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/prismava/public_html/amazonparalelo.com/wp-content/themes/amazona/include/main.php on line 2

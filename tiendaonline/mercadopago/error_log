@@ -1,0 +1,196 @@
+[26-Mar-2015 16:18:37 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'currency_id invalid' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(421): MPRestClient::exec('POST', '/checkout/prefe...', Array, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(177): MPRestClient::post('/checkout/prefe...', Array)
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(25): MP->create_preference(Array)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[26-Mar-2015 16:19:29 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'currency_id invalid' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(421): MPRestClient::exec('POST', '/checkout/prefe...', Array, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(177): MPRestClient::post('/checkout/prefe...', Array)
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(25): MP->create_preference(Array)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[26-Mar-2015 16:19:48 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(421): MPRestClient::exec('POST', '/oauth/token', 'client_id=25594...', 'application/x-w...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(60): MPRestClient::post('/oauth/token', 'client_id=25594...', 'application/x-w...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(175): MP->get_access_token()
+#3 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(25): MP->create_preference(Array)
+#4 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[26-Mar-2015 16:21:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'currency_id invalid' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(421): MPRestClient::exec('POST', '/checkout/prefe...', Array, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(177): MPRestClient::post('/checkout/prefe...', Array)
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(19): MP->create_preference(Array)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[26-Mar-2015 16:21:30 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(421): MPRestClient::exec('POST', '/oauth/token', 'client_id=25594...', 'application/x-w...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(60): MPRestClient::post('/oauth/token', 'client_id=25594...', 'application/x-w...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(175): MP->get_access_token()
+#3 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(19): MP->create_preference(Array)
+#4 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[26-Mar-2015 16:21:35 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'currency_id invalid' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(421): MPRestClient::exec('POST', '/checkout/prefe...', Array, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(177): MPRestClient::post('/checkout/prefe...', Array)
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(19): MP->create_preference(Array)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[26-Mar-2015 16:21:40 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'currency_id invalid' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(421): MPRestClient::exec('POST', '/checkout/prefe...', Array, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(177): MPRestClient::post('/checkout/prefe...', Array)
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(19): MP->create_preference(Array)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[26-Mar-2015 16:25:14 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(421): MPRestClient::exec('POST', '/oauth/token', 'client_id=25594...', 'application/x-w...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(60): MPRestClient::post('/oauth/token', 'client_id=25594...', 'application/x-w...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(175): MP->get_access_token()
+#3 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(19): MP->create_preference(Array)
+#4 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[26-Mar-2015 16:25:17 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(421): MPRestClient::exec('POST', '/oauth/token', 'client_id=25594...', 'application/x-w...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(60): MPRestClient::post('/oauth/token', 'client_id=25594...', 'application/x-w...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(175): MP->get_access_token()
+#3 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(19): MP->create_preference(Array)
+#4 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[26-Mar-2015 16:33:06 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(421): MPRestClient::exec('POST', '/oauth/token', 'client_id=25594...', 'application/x-w...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(60): MPRestClient::post('/oauth/token', 'client_id=25594...', 'application/x-w...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(175): MP->get_access_token()
+#3 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(20): MP->create_preference(Array)
+#4 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[26-Mar-2015 16:33:14 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(421): MPRestClient::exec('POST', '/oauth/token', 'client_id=25594...', 'application/x-w...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(60): MPRestClient::post('/oauth/token', 'client_id=25594...', 'application/x-w...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(175): MP->get_access_token()
+#3 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(20): MP->create_preference(Array)
+#4 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[26-Mar-2015 20:46:07 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(421): MPRestClient::exec('POST', '/oauth/token', 'client_id=25594...', 'application/x-w...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(60): MPRestClient::post('/oauth/token', 'client_id=25594...', 'application/x-w...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(175): MP->get_access_token()
+#3 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(20): MP->create_preference(Array)
+#4 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[08-Apr-2015 20:29:34 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Malformed access_token: Array' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:409
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(422): MPRestClient::exec('POST', '/checkout/prefe...', Array, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(178): MPRestClient::post('/checkout/prefe...', Array)
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(20): MP->create_preference(Array)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 409
+[08-Apr-2015 20:29:42 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Malformed access_token: Array' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:409
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(422): MPRestClient::exec('POST', '/checkout/prefe...', Array, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(178): MPRestClient::post('/checkout/prefe...', Array)
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(20): MP->create_preference(Array)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 409
+[28-Apr-2015 14:29:02 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Resource 1430191698 not found' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(417): MPRestClient::exec('GET', '/collections/no...', NULL, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(265): MPRestClient::get('/collections/no...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(26): MP->get('/collections/no...', Array, false)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[28-Apr-2015 14:29:16 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Resource 1430191698 not found' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(417): MPRestClient::exec('GET', '/collections/no...', NULL, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(265): MPRestClient::get('/collections/no...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(26): MP->get('/collections/no...', Array, false)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[28-Apr-2015 14:29:28 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Resource 1430191698 not found' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(417): MPRestClient::exec('GET', '/collections/no...', NULL, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(265): MPRestClient::get('/collections/no...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(26): MP->get('/collections/no...', Array, false)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[28-Apr-2015 14:31:06 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Resource 1430191698 not found' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(417): MPRestClient::exec('GET', '/collections/no...', NULL, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(265): MPRestClient::get('/collections/no...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(26): MP->get('/collections/no...', Array, false)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[28-Apr-2015 14:31:45 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Resource 1430191698 not found' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(417): MPRestClient::exec('GET', '/collections/no...', NULL, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(265): MPRestClient::get('/collections/no...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(26): MP->get('/collections/no...', Array, false)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[28-Apr-2015 14:32:19 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Resource 1430191698 not found' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(417): MPRestClient::exec('GET', '/collections/no...', NULL, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(265): MPRestClient::get('/collections/no...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(26): MP->get('/collections/no...', Array, false)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[28-Apr-2015 14:33:14 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Resource 1430191698 not found' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(417): MPRestClient::exec('GET', '/collections/no...', NULL, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(265): MPRestClient::get('/collections/no...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(27): MP->get('/collections/no...', Array, false)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[28-Apr-2015 14:35:57 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Resource 1430191698 not found' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(417): MPRestClient::exec('GET', '/collections/no...', NULL, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(265): MPRestClient::get('/collections/no...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(27): MP->get('/collections/no...', Array, false)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[28-Apr-2015 14:36:12 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Resource 1430191698 not found' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(417): MPRestClient::exec('GET', '/collections/no...', NULL, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(265): MPRestClient::get('/collections/no...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(27): MP->get('/collections/no...', Array, false)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[28-Apr-2015 14:59:36 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Resource 1430233108 not found' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(417): MPRestClient::exec('GET', '/collections/no...', NULL, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(265): MPRestClient::get('/collections/no...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(27): MP->get('/collections/no...', Array, false)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[28-Apr-2015 14:59:45 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Resource 1430233108 not found' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(417): MPRestClient::exec('GET', '/collections/no...', NULL, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(265): MPRestClient::get('/collections/no...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(27): MP->get('/collections/no...', Array, false)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[28-Apr-2015 15:22:21 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'ID must be specified to perform a get.' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(417): MPRestClient::exec('GET', '/collections/no...', NULL, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(265): MPRestClient::get('/collections/no...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(29): MP->get('/collections/no...', Array, false)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
+[28-Apr-2015 15:44:12 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Resource 1430235834 not found' in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php:408
+Stack trace:
+#0 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(417): MPRestClient::exec('GET', '/collections/no...', NULL, 'application/jso...')
+#1 /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php(265): MPRestClient::get('/collections/no...')
+#2 /home/legionde/public_html/rpg.com.ve/mercadopago/index.php(29): MP->get('/collections/no...', Array, false)
+#3 {main}
+  thrown in /home/legionde/public_html/rpg.com.ve/mercadopago/lib/mercadopago.php on line 408
