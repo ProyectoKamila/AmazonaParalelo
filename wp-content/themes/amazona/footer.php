@@ -44,15 +44,6 @@
 <?php wp_footer(); ?>
 
 
-<script src="<?php bloginfo('template_url') ?>/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="<?php bloginfo('template_url') ?>/scripts/slider/js/jquery.anythingslider.js"></script>
-<script src="<?php bloginfo('template_url') ?>/scripts/slider/js/jquery.anythingslider.fx.js"></script>
-<script src="<?php bloginfo('template_url') ?>/scripts/main.js"></script>
-<!-- AnythingSlider video extension; optional, but needed to control video pause/play -->
-<script src="<?php bloginfo('template_url') ?>/scripts/slider/js/jquery.anythingslider.video.js"></script>
-<script type="text/javascript" language="javascript" src="<?php bloginfo('template_url') ?>/scripts/carrusel/jquery.carouFredSel-6.2.1-packed.js"></script>    <!-- optionally include helper plugins -->
-<script type="text/javascript" language="javascript" src="<?php bloginfo('template_url') ?>/scripts/carrusel/helper-plugins/jquery.mousewheel.min.js"></script>
-<script type="text/javascript" language="javascript" src="<?php bloginfo('template_url') ?>/scripts/carrusel/helper-plugins/jquery.touchSwipe.min.js"></script>
 
 
 </html>

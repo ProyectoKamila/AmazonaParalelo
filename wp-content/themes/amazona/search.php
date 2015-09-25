@@ -188,7 +188,7 @@ try
     //var_dump($response);
 
    // Back to DE and looking for some Music !! Warning "Large" produces a lot of Response
-   $response = $amazonEcs->country('com')->category('All')->responseGroup('Small,Images')->page(1)->search($varsearch);
+   $response = $amazonEcs->country('com')->category('All')->responseGroup('ItemAttributes,Images')->page(1)->search($varsearch);
       // var_dump($response['Items']['Item']);
  
    // Or doing searchs in a loop
@@ -218,12 +218,13 @@ try
        <?php foreach($response['Items']['Item'] as $p){ ?>
        
       <div class="col-sm-6 col-md-3">
-          <?php //debug($p , false); ?>
+          <?php //debug($p['ItemAttributes']['ListPrice']['FormattedPrice'], false); ?>
     <div class="thumbnail">
       <img  id="thum<?php echo $xs;?>"src="<?php echo $p['MediumImage']['URL'];?>" alt="..." style="height:120px;">
       <div class="caption">
         <h3 style="font-size:12px;"><?php echo max_charlength($p['ItemAttributes']['Title'], 70) ; ?><?php echo max_charlength($p['ItemAttributes']['Price'], 80) ; ?></h3>
-        <p><?php echo max_charlength($p['ItemAttributes']['ProductGroup'], 70) ; ?></p>
+        <p><?php  $p['ItemAttributes']['ListPrice']['FormattedPrice']; ?></p>
+        <p><?php search_precio($p['ItemAttributes']['ListPrice']['Amount']); ?></p>
         <p><a  id="<?php echo $xs;?>" class="btn btn-default " onclick="solicitar(id);" role="button">Solicitar Producto</a></p>
         <input type="hidden" id="url-producto-<?php echo $xs;?>" value="<?php echo $p['DetailPageURL'] ; ?>"/>
       </div>
@@ -243,25 +244,25 @@ try
                 <form name="solicitud-pedido" method="POST">
                     <p>Por favor completa todos los campos.</p>
                    <div class="input-group input-group-lg">
-                       <span class="input-group-addon" id="sizing-addon1"></span>
+                       <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-user"></i></span>
                       <input name="nombre" type="text" class="form-control" placeholder="Nombre" aria-describedby="sizing-addon1" required>
                     </div>
                     </br>
                     <div class="input-group input-group-lg">
                     <!--<div class="g-recaptcha" data-sitekey="6LcSfQ0TAAAAAM54GerRQiYCYBPPMeAT1ZKUhf3M"></div>-->
-                     <span class="input-group-addon" id="sizing-addon1"></span>
+                     <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-envelope"></i></span>
                       <input name="email" type="email" class="form-control" placeholder="Email" aria-describedby="sizing-addon1" required>
                     </div>
                     </br>
                     <div class="input-group input-group-lg">
                     <!--<div class="g-recaptcha" data-sitekey="6LcSfQ0TAAAAAM54GerRQiYCYBPPMeAT1ZKUhf3M"></div>-->
-                     <span class="input-group-addon" id="sizing-addon1"></span>
+                     <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-phone-square"></i></span>
                       <input name="telefono"type="text" class="form-control" placeholder="Telefono" aria-describedby="sizing-addon1" required>
                     </div>
                     </br>
                     <div class="input-group input-group-lg">
                     <!--<div class="g-recaptcha" data-sitekey="6LcSfQ0TAAAAAM54GerRQiYCYBPPMeAT1ZKUhf3M"></div>-->
-                     <span class="input-group-addon" id="sizing-addon1"></span>
+                     <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-arrow-circle-up"></i></span>
                       <input name="cantidad" type="number" class="form-control" placeholder="Cantidad" aria-describedby="sizing-addon1" min="1" required>
                     </div>
                     <div class="input-group input-group-lg">

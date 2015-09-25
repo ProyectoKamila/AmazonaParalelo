@@ -14,11 +14,21 @@ $db = json_decode($vari);
         <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/scripts/slider/css/anythingslider.css">
         <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/scripts/slider/css/animate.css">
         <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/bootstrap/dist/css/bootstrap.css">
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    
+<?php wp_head(); ?>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
-<script src='https://www.google.com/recaptcha/api.js'></script>
-
-        <?php wp_head(); ?>
+        <script src="<?php bloginfo('template_url') ?>/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="<?php bloginfo('template_url') ?>/scripts/slider/js/jquery.anythingslider.js"></script>
+        <script src="<?php bloginfo('template_url') ?>/scripts/slider/js/jquery.anythingslider.fx.js"></script>
+        
+        <!-- AnythingSlider video extension; optional, but needed to control video pause/play -->
+        <script src="<?php bloginfo('template_url') ?>/scripts/slider/js/jquery.anythingslider.video.js"></script>
+        <script type="text/javascript" language="javascript" src="<?php bloginfo('template_url') ?>/scripts/carrusel/jquery.carouFredSel-6.2.1-packed.js"></script>    <!-- optionally include helper plugins -->
+        <script type="text/javascript" language="javascript" src="<?php bloginfo('template_url') ?>/scripts/carrusel/helper-plugins/jquery.mousewheel.min.js"></script>
+        <script type="text/javascript" language="javascript" src="<?php bloginfo('template_url') ?>/scripts/carrusel/helper-plugins/jquery.touchSwipe.min.js"></script>
+        <script src="<?php bloginfo('template_url') ?>/scripts/main.js"></script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
     <body>
         <header class="menu navbar-fixed-top hidden-sm hidden-xs" >

@@ -28,8 +28,8 @@ $db = json_decode($vari1);
                             <a href="<?php the_permalink(); ?>"><img src="<?php echo wp_get_attachment_url(get_post_thumbnail_id($post->ID)); ?>" alt="<?php the_title(); ?>"/></a>
                         </div>
                         <div class="oferta-producto-description">
-                            <h2><?php the_title(); ?></h2>
-                            <p><?php echo max_charlength($post->post_excerpt, 120) ?></p>
+                            <h2><?php echo  max_charlength(get_the_title(),40); ?></h2>
+                            <p><?php echo max_charlength($post->post_excerpt, 30) ?></p>
 
                         </div>
                         <div class="oferta-precio">
@@ -84,7 +84,8 @@ $db = json_decode($vari1);
                                             <img src="<?php echo wp_get_attachment_url(get_post_thumbnail_id($post->ID)); ?>" alt="<?php the_title(); ?>"/>
                                         </div>
                                     </a>
-                                    <p><?php the_title(); ?> - <strong><?php echo select_divisa('Bs.', $product->get_price()); ?></strong></p>
+                                    <p><?php echo  max_charlength(get_the_title(),30); ?></p>
+                                    <p><stong><?php echo 'Bs. ' . select_divisa('Bs. ', $product->get_price()); ?></p>
                                     <a href="<?php the_permalink(); ?>"><div class="producto-precio"></div></a>
                                     <?php // echo MY_YITH::add_to_wishlist_button_juan( $yith_wcwl->get_wishlist_url(), $product->product_type, $yith_wcwl->is_product_in_wishlist( $product->id ) );?>
                                     <!--<div class="producto-wishlist">-->

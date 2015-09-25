@@ -1,7 +1,44 @@
 // A $( document ).ready() block.
 $(document).ready(function () {
     console.log("ready!");
-   
+       
+ $('#slider1').anythingSlider({
+//			theme : 'metallic',
+        expand: true,
+        mode: "vertical",
+        easing: "swing",
+        buildArrows: false, // If true, builds the forwards and backwards buttons
+        buildNavigation: false, // If true, builds a list of anchor links to link to each panel
+        buildStartStop: false,
+        hashTags: false,
+        delay: 6000,
+        animationTime: 0,
+        delayBeforeAnimate: 1000,
+        autoPlay: true
+
+    });
+    $('#slider1').anythingSliderFx(
+            {}, // no fx animation, it's all css baby!
+            {
+                stopRepeat: false, // fx option to prevent repeating animation on startup/clicking the same slide (default is false)
+                dataAnimate: 'data-animate' // data attribute containing the in and out animation.css class names to use
+            }
+    );
+    // Initialize video extension
+    // see https://developers.google.com/youtube/player_parameters?hl=en#Parameters for a list of parameters
+    $('#slider1').anythingSliderVideo({
+        // video id prefix; suffix from $.fn.anythingSliderVideo.videoIndex
+        videoId: 'asvideo',
+        // auto load YouTube api script
+        youtubeAutoLoad: true,
+        // see: https://developers.google.com/youtube/player_parameters#Parameters
+        youtubeParams: {
+            modestbranding: 1,
+            iv_load_policy: 3,
+            fs: 1
+        }
+    });
+
     //	Scrolled by user interaction
     $('#foo2').carouFredSel({
         auto: false,
@@ -103,40 +140,3 @@ $(window).load(function() {
        var url2 = $("#url-enviar").val();
        console.log(url2);
     }
-    
- $('#slider1').anythingSlider({
-//			theme : 'metallic',
-        expand: true,
-        mode: "vertical",
-        easing: "swing",
-        buildArrows: false, // If true, builds the forwards and backwards buttons
-        buildNavigation: false, // If true, builds a list of anchor links to link to each panel
-        buildStartStop: false,
-        hashTags: false,
-        delay: 6000,
-        animationTime: 0,
-        delayBeforeAnimate: 1000,
-        autoPlay: true
-
-    });
-    $('#slider1').anythingSliderFx(
-            {}, // no fx animation, it's all css baby!
-            {
-                stopRepeat: false, // fx option to prevent repeating animation on startup/clicking the same slide (default is false)
-                dataAnimate: 'data-animate' // data attribute containing the in and out animation.css class names to use
-            }
-    );
-    // Initialize video extension
-    // see https://developers.google.com/youtube/player_parameters?hl=en#Parameters for a list of parameters
-    $('#slider1').anythingSliderVideo({
-        // video id prefix; suffix from $.fn.anythingSliderVideo.videoIndex
-        videoId: 'asvideo',
-        // auto load YouTube api script
-        youtubeAutoLoad: true,
-        // see: https://developers.google.com/youtube/player_parameters#Parameters
-        youtubeParams: {
-            modestbranding: 1,
-            iv_load_policy: 3,
-            fs: 1
-        }
-    });
