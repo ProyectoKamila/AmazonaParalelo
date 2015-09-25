@@ -14,6 +14,9 @@ $db = json_decode($vari);
         <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/scripts/slider/css/anythingslider.css">
         <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/scripts/slider/css/animate.css">
         <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/bootstrap/dist/css/bootstrap.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 
         <?php wp_head(); ?>
     </head>
@@ -36,10 +39,12 @@ $db = json_decode($vari);
                             <div class="col-lg-8 col-md-8 hidden-sm hidden-xs content-nav">
                                 <ul class="nav nav-pills">
                                     <li role="presentation"  class="content-form">
-                                        <form class="search-form">
+                                        <form class="search-form" action="<?php echo home_url('');?>">
                                             <input name="s" id="s" type="text"/>
                                             <input type="submit" name="Buscar" class="buscar" value="Buscar" /></form>
-                                        <a href="#" id="busqueda"><img src="<?php bloginfo('template_url'); ?>/images/general/lupa.png" alt="lupa" class="lupa"/></a>
+                                        <a href="#" id="busqueda">
+                                            <img src="<?php bloginfo('template_url'); ?>/images/general/lupa.png" alt="lupa" class="lupa"/>
+                                        </a>
                                     </li>
 
                                     <li role="presentation"><a href="<?php echo home_url('mi-cuenta'); ?>">Iniciar Sesion</a></li>
