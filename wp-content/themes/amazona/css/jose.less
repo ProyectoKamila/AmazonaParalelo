@@ -4,6 +4,10 @@ body{
     padding-top: 140px;
     background: @lila !important;
 }
+a#busqueda{
+    position:relative;
+    z-index:99999999;
+}
 header.menu{
     position: fixed;
     /*overflow: hidden;*/
@@ -67,12 +71,13 @@ header.menu{
             width: 320px;
             display: none;
             transition: 1s all ease-in-out;
+            z-index:100;
 
         }
         .search-form input#s{
             height: 49px;
             width: 65%;
-            z-index: 41;
+            z-index: 410000;
             position:relative;
 
         }
@@ -85,7 +90,7 @@ header.menu{
             width: 35%;
             font-size: 14px;
             font-weight: bold;
-            z-index: 1;
+            z-index: 100;
             background: @naranja;
             border: none;
             color: white;
@@ -94,7 +99,9 @@ header.menu{
         }
         .lupa{
             transition: 1s all ease-in-out;
-            z-index: 2;
+            z-index: 20;
+            
+            cursor:pointer;
         }
         .lupa-desplegada{
             top: -52px;

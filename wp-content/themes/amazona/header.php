@@ -27,8 +27,7 @@ $db = json_decode($vari);
         <script type="text/javascript" language="javascript" src="<?php bloginfo('template_url') ?>/scripts/carrusel/jquery.carouFredSel-6.2.1-packed.js"></script>    <!-- optionally include helper plugins -->
         <script type="text/javascript" language="javascript" src="<?php bloginfo('template_url') ?>/scripts/carrusel/helper-plugins/jquery.mousewheel.min.js"></script>
         <script type="text/javascript" language="javascript" src="<?php bloginfo('template_url') ?>/scripts/carrusel/helper-plugins/jquery.touchSwipe.min.js"></script>
-        <script src="<?php bloginfo('template_url') ?>/scripts/main.js"></script>
-        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <script src="<?php bloginfo('template_url'); ?>/scripts/main.js"></script>
     </head>
     <body>
         <header class="menu navbar-fixed-top hidden-sm hidden-xs" >
@@ -52,8 +51,8 @@ $db = json_decode($vari);
                                         <form class="search-form" action="<?php echo home_url('');?>">
                                             <input name="s" id="s" type="text"/>
                                             <input type="submit" name="Buscar" class="buscar" value="Buscar" /></form>
-                                        <a href="#" id="busqueda">
-                                            <img src="<?php bloginfo('template_url'); ?>/images/general/lupa.png" alt="lupa" class="lupa"/>
+                                        <a  id="" >
+                                            <img id="bsb" src="<?php bloginfo('template_url'); ?>/images/general/lupa.png" alt="lupa" class="lupa"/>
                                         </a>
                                     </li>
 
@@ -238,19 +237,14 @@ $db = json_decode($vari);
                                 <form class="search-form visible-sm visible-xs">
                                     <input name="s" id="s" type="text"/>
                                     <input type="submit" name="Buscar" class="buscar" value="Buscar" /></form>
-
                             </li>
-
                             <li role="presentation"><a href="<?php home_url('mi-cuenta'); ?>">Iniciar Sesion</a></li>
                             <li role="presentation"><a href="<?php home_url('mi-cuenta'); ?>">Mi Cuenta</a></li>
                             <li role="presentation"><a href="<?php home_url('contacto'); ?>">Contacto</a></li>
                             <li role="presentation"><a href="<?php home_url('nosotros'); ?>">Nosotros</a></li>
-
                         </ul>
                     </div>
                 </div>
-
             </div>
-
         </header>
 

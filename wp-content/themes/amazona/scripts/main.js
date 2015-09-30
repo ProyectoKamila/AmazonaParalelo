@@ -1,7 +1,17 @@
 // A $( document ).ready() block.
 $(document).ready(function () {
     console.log("ready!");
-       
+ $("#bsb").mouseenter(function () {
+        console.log('entro');
+        //$('#busqueda').addClass('lupa-desplegada');
+        $('.search-form').slideDown();
+    });
+    $('#home-productos').mouseenter(function () {
+        console.log('salio');
+        //$('#busqueda').removeClass('lupa-desplegada');
+        $('.search-form').slideUp();
+    });
+    
  $('#slider1').anythingSlider({
 //			theme : 'metallic',
         expand: true,
@@ -67,16 +77,6 @@ $(window).scroll(function () {
             $('header.menu').css('box-shadow', '1px 2px 5px #ccc');
         }
     });
-$('#busqueda').mouseenter(function () {
-    console.log('entro');
-    $('#busqueda').addClass('lupa-desplegada');
-    $('.search-form').slideDown();
-});
-$('.content-form').mouseleave(function () {
-    console.log('salio');
-    //$('#busqueda').removeClass('lupa-desplegada');
-    //$('.search-form').slideUp();
-});
 
 $('#boton-categoria').click(function () {
     $('#menu-categorias').toggle(function () {
@@ -140,3 +140,5 @@ $(window).load(function() {
        var url2 = $("#url-enviar").val();
        console.log(url2);
     }
+   
+        
